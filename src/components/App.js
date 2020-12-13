@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Spinner from "./Loader/Loader";
-import Notification from "./Notification/Notification";
-import ImageGallery from "./ImageGallery/ImageGallery";
-import SearchBar from "./SearchBar/SearchBar";
+import Spinner from "../components/Loader";
+import Notification from "../components/Notification";
+import ImageGallery from "../components/ImageGallery";
+import SearchBar from "../components/SearchBar";
 import PicturesApi from "../services/PicturesApi";
-import Button from "./Button/Button";
-import Modal from "./Modal/Modal";
+import Button from "../components/Button";
+import Modal from "../components/Modal";
 
 export default class App extends Component {
   state = {
