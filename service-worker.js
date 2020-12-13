@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/goit-react-hw-03-image-finder/precache-manifest.e036dd4efb536c78f700584d4d6abfb3.js"
+  "/goit-react-hw-03-image-finder/precache-manifest.d1e79f066b6c47438d130e52a59072f7.js"
 );
 
 self.addEventListener('message', (event) => {
